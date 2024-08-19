@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  background-color: #F2F2F2;
+}
+
+.hero {
+  max-width: 1920px;
+  max-width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  padding: 40px 20px;
+}
+
+.hero img {
+  max-width: 125px;
+  max-width: 100%;
+ }
+
+.paragraphs {
+  font-family: "Bai Jamjuree", sans-serif;
+  color: #9EABB2;
+  line-height: 30px;
+  letter-spacing: 0.15px;
+  font-size: 20px;
+  max-width: 715px;
+}
+
+.heading {
+  font-size: 32px;
+  padding-bottom: 20px;
+  line-height: 30px;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+  transition: all 0.3s ease-in;
+  max-width: 100%;
+}
+
+.hero-btn{
+  transition: all 0.3s ease-in;
+}
+
+.hero-btn:hover{
+  background-color: #161616;
+  box-shadow: none;
+}
+
+button {
+  padding: 15px;
+  border-radius: 25px;
+  border: 0;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.primary-buttons {
+  background-color: #26BBA4;
+  box-shadow: 2px 2px 5px   #26BBA4;
+}
+
+.secondary-buttons {
+  background-color: #6174FF;
+}
+
+.text-with-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.img-w-text {
+  padding:80px 30px 161px 30px ;
+  display: flex;
+  align-items: center;
+  gap: 116px;
+  max-width: 1920px;
+  max-width: 100%;
+  justify-content: center;
+}
+
+.img-w-text img{
+  max-width: 630px;
+  max-width: 100%;
+}
+
+.img-w-text-descreption {
+  max-width: 336px;
+}
+
+.img-w-text .img-w-text-descreption p {
+  padding-bottom: 61px;
+  line-height: 26px;
+  letter-spacing: 0.12px;
+}
+.img-w-text .img-w-text-descreption h4 {
+  font-size: 24px;
+
+}
+.clipboard {
+  padding: 0 32px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1920px;
+  max-width: 100%;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+
+.feature-overview {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.clipboard img {
+  max-width: 700px;
+  max-width: 100%;
+}
+
+.clipboard h2,.feature-container {
+  text-align: center;
+}
+
+.feature-container {
+  width: 350px;
+}
+
+.feature-icon {
+  max-width: 48px;
+  max-width: 48px;
+}
+
+.brand-logos-section {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #0000000d;
+  padding: 20px;
+}
+
+.footer img {
+  max-width: 45px;
+  max-width: 45px;
+}
+
+.footer img,.footer {
+  color: #00000022;
+}
+
+.footer-icon {
+  display: flex;
+  gap: 10px;
+  font-size: 0;
+  align-items: center;
+}
+
+.footer-icon img {
+  max-width: 24px;
+}
+
+.feature-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding-block: 60px;
+}
+
+.footer nav{
+  display: flex;
+  gap: 30px;
+}
+.footer nav a{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  color: #4C545C;
+  text-decoration: none;
+}
+
+.footer nav a:hover{
+  color: #26BBA4;
+  font-weight: bold;
+}
+
+@media (max-width:1040px){
+  .feature-overview,.brand-logos-section{
+    justify-content: center;
+  }
+
+}
+@media (max-width:998px) {
+  .img-w-text {
+    gap:60px;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .feature-section{
+    padding: 30px;
+  }
+}
+
+@media (max-width:768px) {
+
+  .img-w-text {
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 50px;
+    gap: 100px;
+  }
+
+  .img-w-text img,.feature-container {
+    padding: 15px;
+  }
+
+  .feature-overview {
+    flex-direction: column;
+  }
+
+  .feature-container {
+    width: 311px;
+  }
+
+  .brand-logos-section {
+    gap: 45px;
+    flex-direction: column;
+  }
+
+  .footer {
+    gap: 30px;
+    padding: 50px 100px;
+    flex-direction: column;
+  }
+
+  .buttons {
+    gap: 24px;
+    flex-direction: column;
+  }
+
+  .mobile-design {
+    width: 100%;
+  }
+
+  .footer nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+
