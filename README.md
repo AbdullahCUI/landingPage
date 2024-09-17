@@ -1,2 +1,5 @@
 ﻿# Landing-Page
- . live Preview: https://starthere.netlify.app
+ <ul>
+  <li>Figma: https://shorturl.at/wEF2c</li>
+  <li>live Preview: https://starthere.netlify.app</li>
+ </ul>
